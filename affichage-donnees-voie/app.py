@@ -29,7 +29,7 @@ class TextRedirector:
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Analyse Eurotunnel")
+        self.title("Affichage-donnees-voie")
         self.geometry("640x560")
         self.filepath = None
 

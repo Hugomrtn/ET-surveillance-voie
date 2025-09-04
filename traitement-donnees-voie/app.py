@@ -63,7 +63,7 @@ class PlaceholderEntry(tk.Entry):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("TRAITEMENT EXPORT GEOMETRY")
+        self.title("Traitement-donnees-voie")
         self.geometry("760x560")
 
         self.q = queue.Queue()
